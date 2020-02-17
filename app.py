@@ -192,6 +192,28 @@ quit-to quit
         print("I cant understand your command")
 
 
+for items in ['utkrishta','bhattarai','ram','dai','kaki','diid']:
+    print(items)
+
+
+message=input(">")
+words=message.split(' ')
+emoji={
+    ":)": "haha"
+}
+output=""
+for word in words:
+    output += emoji.get(word, word) + " "
+print(output)
+
+def greet_user():
+    print("Hi there")
+    print("Welcome abroad")
+
+
+greet_user()
+
+
 
 
 
