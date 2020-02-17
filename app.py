@@ -1,84 +1,84 @@
+import  greetuser
 # python code runs line by line
 
 print("Hello world")
 print("0---")
 print("|||")
 print('*' * 10)
-
-# defning variable in python
+#
+# # defning variable in python
 numberfirst = 1
 numbersecond = 2
 print(numberfirst * numbersecond)
 
-# types of variable in python
-# is_true=True
-# price=990.9
-
-##on some hospital scenario
-# name="John"
-# age=20
-# is_new=False
-
-# name1=input("What is your name? ")
-# print("Hi"+" "+ name1)
-
-# asking person name and color and print like utkrishta likes black
-# name2=input("What is your name ? ")
-# color=input("What is your favourite color? ")
-# print("My name is "+ name2+" "+ "and my favourite color is"+" "+ color+".")
-
-# parsing into string
-# lets calculate the age
-
-# displayage=input("What is your birth year?: ")
-# calculateage=2020-int(displayage)
-# print(calculateage)
-
-# print(type(displayage))# used to print the variable type
-
-##get weight in gram and show it in kilo
-# gram_weight =int(input("Please enter your weight in gram: "))
-# print((gram_weight/1000))
-
-# defining quotes by someone
+# # types of variable in python
+is_true=True
+price=990.9
+#
+# ##on some hospital scenario
+name="John"
+age=20
+is_new=False
+#
+name1=input("What is your name? ")
+print("Hi"+" "+ name1)
+#
+# # asking person name and color and print like utkrishta likes black
+name2=input("What is your name ? ")
+color=input("What is your favourite color? ")
+print("My name is "+ name2+" "+ "and my favourite color is"+" "+ color+".")
+#
+# # parsing into string
+# # lets calculate the age
+#
+displayage=input("What is your birth year?: ")
+calculateage=2020-int(displayage)
+print(calculateage)
+#
+print(type(displayage))# used to print the variable type
+#
+# ##get weight in gram and show it in kilo
+gram_weight =int(input("Please enter your weight in gram: "))
+print((gram_weight/1000))
+#
+ # defining quotes by someone
 
 print('Someone said "Where do you live"')
-
-# email for someone
-
-print(''' 
-Hi john, 
+#
+# # email for someone
+#
+print('''
+Hi john,
 i am utrkishta bhattarai
 who are you ?
 Best regards
 ''')
-
-# indexing strings in python
+#
+# # indexing strings in python
 index = "What is my name"
 print(index[0])  # getting first aplhabet of the index variable
 print(index[-1])  # getting last alphabet of the index
 print(index[0:3])  # getting multiple alphabets starting from index 0 to index 3 excluding 3
 print(index[0:])  # getting all from index 0
-
-# formatted string
+#
+# # formatted string
 fname = "John"
 lname = "Smith"
 msg = f'{fname} [{lname}] is a coder'
 print(msg)
-
+#
 course = 'Python for Beginners'
 print(len(course))  ##counting the number of input
-
 print(course.upper());  ##uppercase conversion
 print(course.find('o'));  # finding
 print(course.replace('for', 'For'))
-
-# if python is in course
+#
+# # if python is in course
 # boolen expression
 
 print('Python' in course)  ##retuns boolean value
 
-##int and float
+# ##int and float
 
 print(10+3)
 print(10%3)
@@ -100,7 +100,7 @@ print(abs(a))
 
 
 
-#conditional statements
+# #conditional statements
 price_house=1000000
 has_good=False
 
@@ -117,8 +117,8 @@ if has_high_income and has_good_credit:
     print("Eligible for loan")
 
 
-##assignment
-
+# ##assignment
+#
 temperature=31
 if temperature>30:
     print("It is a hot day")
@@ -128,8 +128,8 @@ else:
     print("It is neither hot nor cold")
 
 
-##assignment 2
-
+# ##assignment 2
+#
 name=input("please enter your name? ")
 
 if len(name)<3:
@@ -139,7 +139,7 @@ elif len(name)>50:
 else:
     print("Name looks good")
 
-#while loop in python
+# #while loop in python
 
 i=1
 while i<=5:
@@ -148,7 +148,7 @@ while i<=5:
 print("Done")
 
 
-##building a guessing game
+# ##building a guessing game
 
 secret_number=9
 guess_times=0
@@ -162,7 +162,7 @@ while guess_times<guess_limit:
 else:
     print("Sorry you have failed")
 
-###car simulation game
+# ###car simulation game
 print("Welcome to our simulation game")
 command=""
 started=False
@@ -181,8 +181,8 @@ while True:
         else:
             print("Car stopped")
     elif command=="help":
-        print(''' 
-start-to start the car 
+        print('''
+start-to start the car
 stop-to stop the car
 quit-to quit
         ''')
@@ -205,13 +205,15 @@ output=""
 for word in words:
     output += emoji.get(word, word) + " "
 print(output)
-
+#
 def greet_user():
     print("Hi there")
     print("Welcome abroad")
 
 
 greet_user()
+
+greetuser.greetuser()
 
 
 
